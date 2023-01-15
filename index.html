@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ff0a38133.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="ishika/background1.jpg" class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="Header">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="Portfolio">Portfolio</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>B.Tech CSE student</p>
+            <h1>Hi, I am <span> Sannidhya Sharma </span><br> from University of Pertroleum and Energy Studies</h1>
+        </div>
+    </div>
+ </div>
+  <!---------about------------->
+
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ishika/background.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey! I am a student and currently persuing my B.Tech in Computer Science at University of Petroleum and Energy Studies. <br> I am 19 year old and
+                   I am on my way to be a software engineer. And in order to be a good engineer, am doing my best and to enhance my knowledge
+                   I have joined the Open Community. <br> I love playing guitar, and also I like spending time with people who prefers to live alone;)</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents6 active-tab" id="Skills">
+                    <ul>
+                        <li><span>Programming Language</span><br>Python,C and C++</li>
+                        <li><span>Extra-Curricular</span><br>Played Basketball and cricket at higher levels.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>currently a fresher in Coding, knows only Basics of C and C++.</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018-2019</span><br>Got my High School Degree from Delhi Public School GBN with 89% marks.</li>
+                        <li><span>2020-2021</span><br>Got my Senior Secondary School Degree from Delhi Public School GBN with 89% marks.</li>
+                        <li><span>2022-present</span><br>Persuing B.Tech in CSE from UPES.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!---------------services---------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-copyright"></i>
+                <h2>C Programs</h2>
+                <p> C language is one of the most popular computer language today because it is structured,
+                    high level, machine independent language. It allows software developers to develop nprograms without
+                    worrying about the hardware platforms where they will bw implemnted. C is also known as high level 
+                    compiler language. The aim of any high level computer language is to provide an easy and natural way of
+                     giving a program of instructions to a computer.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++ Programs</h2>
+                <p>C++ is a general-purpose Programminglang language and is widely used nowadays for 
+                    competitive programming. It has imperative, object-oriented and genric programming features.
+                    C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Programs</h2>
+                <p>Python is a popular general-purpose programming language. It is used in machine learning,
+                    web development, desktop applications, and many other fields. 
+                    Python has a simple, easy-to-use syntax. This makes Python a great language to learn for beginners. </p>
+                <a href="#">Learn More</a>
+             </div>    
+         </div>  
+    </div>
+</div>
+  <!--------------PORTFOLIO---------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="ishika/photo2.jpeg">
+                <div class="layer">
+                    <h3>Basics of Computer Organisation</h3>
+                    <p>1). Mermory and Storage
+                        2). CPU working and Instruction cycle
+                        3). Flowchart, pseudocode and algorithms
+                        4). Operating System and system software
+                        5). Evolution of programming Language
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ishika/photo3.jpg">
+                <div class="layer">
+                    <h3>Programs</h3>
+                    <p>1). Fibonacci Services
+                        2). Prime number
+                        3). Palindrome number
+                        4). Factorial
+                        5). Armstrong number
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ishika/PHOTO4.png">
+                <div class="layer">
+                    <h3>C and C++ Concepts</h3>
+                    <p>1). Pre-processor Commands
+                        2).Instructions and Operators
+                        3). Loops and Decisions making
+                        4). Classes and Objects
+                        5). Dta structures, array, pointers and union
+                        6).i/o commands
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!---------------contact----------------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sannidhyas947@gmail.com</p>
+                <div class="social-icons">
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>    
+                </div>
+                <a href="images/vasu.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <p>Made by Sannidhya Sharma.</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classlist.add("active-tab")
+    } 
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>
